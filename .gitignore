@@ -1,0 +1,25 @@
+# Go build artifacts
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.test
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# App-specific sensitive files
+assets/cookies.txt     # your browser cookie dump
+embed/
+
+# Go module cache (optional)
+go.sum
